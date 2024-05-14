@@ -7,11 +7,11 @@ class SettingsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: ThemeColors.blue_10,
+      color: ThemeColors.nearlyWhite,
       // color: ThemeColors.settingsColor,
       alignment: Alignment.center,
       child: const Text('Settings Page',
-          style: TextStyle(fontSize: 24, color: Colors.white)),
+          style: TextStyle(fontSize: 24, color: ThemeColors.blue_primary)),
     );
   }
 }

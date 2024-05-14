@@ -7,10 +7,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: ThemeColors.homeColor,
+      color: ThemeColors.nearlyWhite,
       alignment: Alignment.center,
       child: const Text('Home Page',
-          style: TextStyle(fontSize: 24, color: Colors.white)),
+          style: TextStyle(fontSize: 24, color: ThemeColors.blue_primary)),
     );
   }
 }
